@@ -2,9 +2,9 @@
 
 これまでにつくったもの
 
-## BleScanner
+# BleScanner
 
-https://github.com/cnaos/BleScanner
+[https://github.com/cnaos/BleScanner](https://github.com/cnaos/BleScanner)
 
 
 <img src="https://github.com/cnaos/picture/raw/master/BleScanner/device_list02.png" width="25%"/><img src="https://github.com/cnaos/picture/raw/master/BleScanner/device_detail.png" width="25%"/>
@@ -18,20 +18,20 @@ HIRAMINEさんの[BLE通信ソフトを作る( Android Studio 2.3.3 + RN4020 )](
 スキャン後にBLEのGATTプロファイル(汎用アトリビュートプロファイル)を使って詳細なデバイス名の取得を行っています。
 
 
-### 利用ライブラリ
+## 利用ライブラリ
 
 * Able
-  * https://github.com/JuulLabs-OSS/able
+  * [https://github.com/JuulLabs-OSS/able](https://github.com/JuulLabs-OSS/able)
   * AndroidのBluetoothLEフレームワークをKotlinのcoroutineで扱えるようにするためのフレームワーク
 * Peko
-  * https://github.com/deva666/Peko
+  * [https://github.com/deva666/Peko](https://github.com/deva666/Peko)
   * Android PermissionsをKotlin Coroutineまたは、LiveDataで扱えるようにするためのライブラリ
 * android-identicons
-  * https://github.com/lelloman/android-identicons
+  * [https://github.com/lelloman/android-identicons](https://github.com/lelloman/android-identicons)
   * Ideticonを生成するためのライブラリ
 
 
-### できること
+## できること
 
 * Bluetooth LEデバイスのスキャン
 * Bluetooth LEデバイスのGATTサービスの一覧の表示
@@ -42,11 +42,11 @@ HIRAMINEさんの[BLE通信ソフトを作る( Android Studio 2.3.3 + RN4020 )](
 
 ## torrentファイルの解析と整合性チェックツール
 
-https://bitbucket.org/cnaos/torrentdump/src/master/
+[https://bitbucket.org/cnaos/torrentdump/src/master/](https://bitbucket.org/cnaos/torrentdump/src/master/)
 
 <img src="https://bytebucket.org/cnaos/torrentdump/raw/a197e6b0c5f4739254a7814f07e751faf07b493c/images/screenshot1.png" width="50%"/>
 
-### ツールの概要
+## ツールの概要
 
 windows用のtorrentファイルのダンプツールです。
 ファイルの整合性チェックもできます。
@@ -63,10 +63,11 @@ GUIに表示する情報のマッピングを簡単にするために、
 XPathで指定した特定のノードの値を画面表示用のモデルにマッピングするという手法をとっています。
 
 
-## QuickQRGen_RxSwift_MacOS
+# QuickQRGen_RxSwift_MacOS
 
 
-https://bitbucket.org/cnaos/quickqrgen_rxswift_macos/src/master/
+[https://bitbucket.org/cnaos/quickqrgen_rxswift_macos/src/master/](https://bitbucket.org/cnaos/quickqrgen_rxswift_macos/src/master/
+)
 
 RxSwift, RxCocoa, QRCoder をつかったMacOS用のQRコードジェネレータです。
 RxSwiftでテキストフィールドに入力した文字列を即座にQRコードに反映します。
