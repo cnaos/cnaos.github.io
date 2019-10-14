@@ -4,6 +4,8 @@
 
 # BleScanner
 
+Android用のBLEデバイスのスキャンツール
+
 [https://github.com/cnaos/BleScanner](https://github.com/cnaos/BleScanner)
 
 
@@ -40,7 +42,9 @@ HIRAMINEさんの[BLE通信ソフトを作る( Android Studio 2.3.3 + RN4020 )](
 
 
 
-## torrentファイルの解析と整合性チェックツール
+# Torrent Dump
+
+torrentファイルの解析と整合性チェックツール
 
 [https://bitbucket.org/cnaos/torrentdump/src/master/](https://bitbucket.org/cnaos/torrentdump/src/master/)
 
