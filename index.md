@@ -2,6 +2,30 @@
 
 これまでにつくったもの
 
+# 環境センサViewer
+
+AndroidでOmronの環境センサ2JCIE-BL01の測定データの読み取り、測定データのグラフ表示、測定データのエクスポートができるアプリです。
+
+環境センサ2JCIE-BL01を使ったデータ観測の例では、環境センサの動作モードをデータ保存なしのビーコンモード(IM/EP)に変更して観測する例が多いのですが、他のアプリとの同時利用も想定してデータ保存ありのモードでの運用ができるようにしました。
+
+
+[環境センサViewer(Google Play)](https://play.google.com/store/apps/details?id=io.github.cnaos.wxbeacon2viewer)
+
+## できること
+
+<img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/wxbeacon2viewer/screenshot/sc01.png" width="25%"/>
+<img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/wxbeacon2viewer/screenshot/sc02.png" width="25%"/>
+<img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/wxbeacon2viewer/screenshot/sc03.png" width="25%"/>
+<img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/wxbeacon2viewer/screenshot/sc04.png" width="25%"/>
+
+
+* 環境センサの現在の測定データの読み取り
+* 環境センサ内の過去の測定データの読み出し
+* アプリ内に取り込んだ測定データのグラフ表示(最大二週間まで)
+* アプリ内に取り込んだ測定データのTSVエクスポート
+* 環境センサの測定間隔の変更&内部タイマー設定
+
+
 # BleScanner
 
 Android用のBLEデバイスのスキャンツール
@@ -9,7 +33,8 @@ Android用のBLEデバイスのスキャンツール
 [https://github.com/cnaos/BleScanner](https://github.com/cnaos/BleScanner)
 
 
-<img src="https://github.com/cnaos/picture/raw/master/BleScanner/device_list02.png" width="25%"/><img src="https://github.com/cnaos/picture/raw/master/BleScanner/device_detail.png" width="25%"/>
+<img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/BleScanner/device_list02.png" width="25%"/>
+<img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/BleScanner/device_detail.png" width="25%"/>
 
 googleの[Android BluetoothLeGatt Sample](https://github.com/android/connectivity-samples/tree/master/BluetoothLeGatt)
 と、
