@@ -13,17 +13,18 @@ AndroidでOmronの環境センサ2JCIE-BL01の測定データの読み取り、�
 
 ## できること
 
+* 環境センサの現在の測定データの読み取り
+* 環境センサ内の過去の測定データの読み出し
+* アプリ内に取り込んだ測定データのグラフ表示(最大二週間まで)
+* アプリ内に取り込んだ測定データのTSVエクスポート
+* 環境センサの測定間隔の変更&内部タイマー設定
+
 <img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/wxbeacon2viewer/screenshot/sc01.png" width="25%"/>
 <img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/wxbeacon2viewer/screenshot/sc02.png" width="25%"/>
 <img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/wxbeacon2viewer/screenshot/sc03.png" width="25%"/>
 <img style="margin:0.5em;" src="https://github.com/cnaos/picture/raw/master/wxbeacon2viewer/screenshot/sc04.png" width="25%"/>
 
 
-* 環境センサの現在の測定データの読み取り
-* 環境センサ内の過去の測定データの読み出し
-* アプリ内に取り込んだ測定データのグラフ表示(最大二週間まで)
-* アプリ内に取り込んだ測定データのTSVエクスポート
-* 環境センサの測定間隔の変更&内部タイマー設定
 
 
 # BleScanner
