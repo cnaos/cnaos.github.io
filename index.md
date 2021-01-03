@@ -2,6 +2,18 @@
 
 これまでにつくったもの
 
+# raspi-wxbeacon2
+
+[https://github.com/cnaos/raspi-wxbeacon2](https://github.com/cnaos/raspi-wxbeacon2)
+
+Omronの環境センサ2JCIE-BL01(WxBeacon2)をデータ保存ありモードで運用し、
+観測データをraspberry piから読み出すpythonスクリプトです。
+
+環境センサ内に保存されている観測データの差分読み出しに対応しており、観測データの読み出し処理が多少停止していてもデータの欠測が発生しにくくなっています。
+
+
+
+
 # 環境センサViewer
 
 AndroidでOmronの環境センサ2JCIE-BL01の測定データの読み取り、測定データのグラフ表示、測定データのエクスポートができるアプリです。
